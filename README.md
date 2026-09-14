@@ -130,19 +130,19 @@ projetofelino/
 
 ---
 
-Próximos passos
+## 🚀 Próximos passos
 
 Este projeto foi desenvolvido inicialmente com HTML, CSS e JavaScript puro. Como próximos desafios, pretendo:
 
-Recriar o projeto utilizando React
-Aprender a estruturar a aplicação utilizando componentes
-Implementar um back-end para os formulários
-Adicionar um banco de dados para os gatos e processos de adoção
-Evoluir o projeto conforme avanço nos estudos
-Sobre o projeto
+- Recriar o projeto utilizando React
+- Aprender a estruturar a aplicação utilizando componentes
+- Implementar um back-end para os formulários
+- Adicionar um banco de dados para os gatos e processos de adoção
+- Evoluir o projeto conforme avanço nos estudos
 
+---
 
-
+## 🐾 Sobre o projeto
 
 O Patinhas foi desenvolvido como um projeto de estudo e portfólio, com o objetivo de colocar em prática conceitos de desenvolvimento front-end através de uma aplicação completa, desde a interface até as interações e funcionalidades em JavaScript.
 
