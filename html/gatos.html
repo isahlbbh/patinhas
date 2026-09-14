@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../imgs/favicon-patinhas.png">
+    <title>Gatinhos para adoção</title>
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/gatos.css">
+    <script src="../js/script.js" defer></script>
+    <script src="../js/gatos.js" defer></script>
+</head>
+
+<body>
+<div class="container">
+
+    <header id="header-placeholder"></header>
+
+    <div class="page-header">
+        <a href="index.html" class="btn-voltar">← Voltar</a>
+
+        <div class="cats-header">
+            <h1>Todos os nossos <span>gatinhos</span> ♡</h1>
+            <p>Encontre um companheiro perfeito para encher seus dias de amor.</p>
+        </div>
+    </div>
+
+    <main>
+
+        <div class="cat-filters">
+            <button class="filter-btn active" data-categoria="todos">Todos</button>
+            <button class="filter-btn" data-categoria="filhote">Filhotes</button>
+            <button class="filter-btn" data-categoria="adulto">Adultos</button>
+            <button class="filter-btn" data-categoria="idoso">Idosos</button>
+        </div>
+
+        <div class="cats-container" id="cats-todos"></div>
+
+        <button class="btn-carregar-mais" id="btn-carregar-mais">
+            Carregar mais gatinhos
+        </button>
+
+    </main>
+
+</div>
+
+</body>
+</html>

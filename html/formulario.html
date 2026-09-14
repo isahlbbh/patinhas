@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../imgs/favicon-patinhas.png">
+    <title>Formulário de Adoção | Patinhas</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <script src="../js/script.js" defer></script>
+    <script src="../js/gatos.js" defer></script>
+    <script src="../js/formulario.js" defer></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <main>
+        <div class="adocao-form">
+            <form>
+                <div class="form-group">
+                    <label for="nome">Seu nome: </label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Digite o seu telefone/WhatsApp" required>
+                </div>
+                <div class="form-group">
+                    <label for="idade">Sua idade: </label>
+                    <input type="number" id="idade" name="idade" placeholder="Digite sua idade..." required>
+                </div>
+                <div class="form-group">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade..." required>
+                </div>
+
+                <div class="form-group">
+                    <label>Qual o seu tipo de moradia?</label>
+
+                    <div class="radio-option">
+                        <input type="radio" id="casa" name="moradia" value="casa">
+                        <label for="casa">Casa</label>
+                    </div>
+
+                    <div class="radio-option">
+                        <input type="radio" id="apartamento" name="moradia" value="apartamento">
+                        <label for="apartamento">Apartamento</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="outro" name="moradia" value="outro">
+                        <label for="outro">Outro</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>O imóvel é:</label>
+
+                    <div class="radio-option">
+                        <input type="radio" id="proprio" name="tipoImovel" value="proprio">
+                        <label for="proprio">Próprio</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="alugado" name="tipoImovel" value="alugado">
+                        <label for="alugado">Alugado</label>
+                    </div>
+                </div>
+
+                <div class="form-group oculto" id="pergunta-proprietario">
+                    <label>O proprietário permite animais?</label>
+
+                    <div class="radio-option">
+                        <input type="radio" id="permite-sim" name="permiteAnimais" value="sim">
+                        <label for="permite-sim">Sim</label>
+                    </div>
+
+                    <div class="radio-option">
+                        <input type="radio" id="permite-nao" name="permiteAnimais" value="nao">
+                        <label for="permite-nao">Não</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>O local possui telas de proteção?</label>
+
+                    <div class="radio-option">
+                        <input type="radio" id="tela-sim" name="telasProtecao" value="sim">
+                        <label for="tela-sim">Sim</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="tela-nao" name="telasProtecao" value="nao">
+                        <label for="tela-nao">Não</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="tela-pretendo" name="telasProtecao" value="pretendo-instalar">
+                        <label for="tela-pretendo">Ainda não, mas pretendo instalar</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="gato-select">Qual gatinho você deseja adotar?</label>
+                    <select name="gato" id="gato-select" required>
+                        <option value="" disabled selected>Selecione um gatinho</option>
+                    </select>
+                </div>
+                    <div class="form-group">
+                        <label for="motivoAdocao">Por que você quer adotar?</label>
+                        <textarea id="motivoAdocao" name="motivoAdocao" placeholder="Conte um pouco sobre sua motivação..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Você já teve gatos?</label>
+
+                        <div class="radio-option">
+                            <input type="radio" id="jaTeve-sim" name="jaTeveGatos" value="sim">
+                            <label for="jaTeve-sim">Sim</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="jaTeve-nao" name="jaTeveGatos" value="nao">
+                            <label for="jaTeve-nao">Não</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Possui outros animais?</label>
+
+                        <div class="radio-option">
+                            <input type="radio" id="outrosAnimais-sim" name="outrosAnimais" value="sim">
+                            <label for="outrosAnimais-sim">Sim</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="outrosAnimais-nao" name="outrosAnimais" value="nao">
+                            <label for="outrosAnimais-nao">Não</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quaisAnimais">Se sim, quais?</label>
+                        <input type="text" id="quaisAnimais" name="quaisAnimais" placeholder="Ex: 1 cachorro, 2 gatos...">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Você está ciente de que um gato pode viver muitos anos e necessita de cuidados veterinários?</label>
+                        <div class="radio-option">
+                            <input type="checkbox" id="cienciaCuidados" name="cienciaCuidados" required>
+                            <label for="cienciaCuidados">Sim, estou ciente.</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Você se compromete com alimentação, vacinação e cuidados veterinários?</label>
+                        <div class="radio-option">
+                            <input type="checkbox" id="compromissoCuidados" name="compromissoCuidados" required>
+                            <label for="compromissoCuidados">Sim, me comprometo.</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="radio-option">
+                            <input type="checkbox" id="declaracaoVerdade" name="declaracaoVerdade" required>
+                            <label for="declaracaoVerdade">
+                                Declaro que as informações fornecidas são verdadeiras e estou interessado(a) em realizar uma adoção responsável.
+                            </label>
+                        </div>
+                    </div>
+
+                <button type="submit" class="btn-adocao" id="btn-envio-formulario">
+                    Enviar formulário
+                </button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
