@@ -110,9 +110,14 @@ Adicionar um banco de dados para os gatos e processos de adoção
 Evoluir o projeto conforme avanço nos estudos
 Sobre o projeto
 
+
+
+
 O Patinhas foi desenvolvido como um projeto de estudo e portfólio, com o objetivo de colocar em prática conceitos de desenvolvimento front-end através de uma aplicação completa, desde a interface até as interações e funcionalidades em JavaScript.
 
 Mais do que apenas acompanhar um curso, este projeto foi construído, testado e depurado na prática, incluindo a resolução de problemas que surgiram durante o desenvolvimento e o processo de publicação no GitHub Pages.
+
+
 
 ## 📁 Estrutura de pastas
 
