@@ -99,24 +99,6 @@ Tive um `const form` declarado tanto no `script.js` quanto no `formulario.js`. C
 Separei em arquivos por escopo (`base`, `header`, `components`, e um por página). O critério foi: se uma classe aparece em mais de uma página, ela vai para um arquivo compartilhado; se é exclusiva de uma página, fica no arquivo daquela página.
 
 ---
-Próximos passos
-
-Este projeto foi desenvolvido inicialmente com HTML, CSS e JavaScript puro. Como próximos desafios, pretendo:
-
-Recriar o projeto utilizando React
-Aprender a estruturar a aplicação utilizando componentes
-Implementar um back-end para os formulários
-Adicionar um banco de dados para os gatos e processos de adoção
-Evoluir o projeto conforme avanço nos estudos
-Sobre o projeto
-
-
-
-
-O Patinhas foi desenvolvido como um projeto de estudo e portfólio, com o objetivo de colocar em prática conceitos de desenvolvimento front-end através de uma aplicação completa, desde a interface até as interações e funcionalidades em JavaScript.
-
-Mais do que apenas acompanhar um curso, este projeto foi construído, testado e depurado na prática, incluindo a resolução de problemas que surgiram durante o desenvolvimento e o processo de publicação no GitHub Pages.
-
 
 
 ## 📁 Estrutura de pastas
@@ -143,3 +125,25 @@ projetofelino/
     ├── script.js
     ├── gatos.js
     └── formulario.js
+
+
+
+---
+
+Próximos passos
+
+Este projeto foi desenvolvido inicialmente com HTML, CSS e JavaScript puro. Como próximos desafios, pretendo:
+
+Recriar o projeto utilizando React
+Aprender a estruturar a aplicação utilizando componentes
+Implementar um back-end para os formulários
+Adicionar um banco de dados para os gatos e processos de adoção
+Evoluir o projeto conforme avanço nos estudos
+Sobre o projeto
+
+
+
+
+O Patinhas foi desenvolvido como um projeto de estudo e portfólio, com o objetivo de colocar em prática conceitos de desenvolvimento front-end através de uma aplicação completa, desde a interface até as interações e funcionalidades em JavaScript.
+
+Mais do que apenas acompanhar um curso, este projeto foi construído, testado e depurado na prática, incluindo a resolução de problemas que surgiram durante o desenvolvimento e o processo de publicação no GitHub Pages.
